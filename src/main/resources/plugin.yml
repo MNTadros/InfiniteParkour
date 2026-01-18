@@ -1,0 +1,11 @@
+name: InfiniteParkour
+version: '${project.version}'
+main: mnt.infiniteParkour.InfiniteParkour
+api-version: '1.21'
+commands:
+  sendtoparkour:
+    description: Teleports the player to the parkour start.
+    usage: /sendtoparkour
+  testnext:
+    description: Tests the next block.
+    usage: /testnext
